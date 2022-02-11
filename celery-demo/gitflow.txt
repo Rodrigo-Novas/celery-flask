@@ -10,3 +10,7 @@ git push --tags (debemos despues publicar los tags en el repo)
 git flow release track release-1.2 (seguir los cambios del release)
 git flow hotfix start hotfix-1.2.1 (crear un hotfix)
 git flow hotfix finish hotfix-1.2.1 (gestionar horfixes)
+
+Se recomienda que al trabajar con git-flow los branches sigan una convención de nombres que esté fuertemente ligada con el bug traker ya sea Jira, The Bug Genie, etc.
+
+IdDelBug-NumeroDeComentario-DescripciónDeLaFuncionalidad

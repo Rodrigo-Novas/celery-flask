@@ -1,0 +1,15 @@
+<html>
+    <head>
+      <title>Flask and Celery</title>
+    </head>
+    <body>
+      <h2>Sending Asynchronous Email</h2>
+      {% for message in get_flashed_messages() %}
+      <p style="color: red;">{{ message }}</p>
+      {% endfor %}
+      <form method="POST">
+        <p>Send email to: <input type="text" name="email" value="{{ email }}"></p>
+        <input type="submit" name="submit" value="Send">
+    </form>
+</body>
+</html>

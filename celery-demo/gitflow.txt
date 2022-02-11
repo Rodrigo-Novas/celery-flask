@@ -1,0 +1,16 @@
+git flow init (inicia un flow en git define los branchs)
+git flow feature start my-feature (crea la rama feature)
+git flow feature finish my-feature (finaliza la rama feature)
+git flow feature publish my-feature (publica la rama feature en el repo remoto)
+git flow feature pull origin my-feature (obtiene una rama desde el repo remoto)
+git flow feature track my-feature (seguir cambios de la rama feature)
+git flow release start release-1.2 (inicia un release)
+git flow release finish release-1.2 (finalizar release)
+git push --tags (debemos despues publicar los tags en el repo)
+git flow release track release-1.2 (seguir los cambios del release)
+git flow hotfix start hotfix-1.2.1 (crear un hotfix)
+git flow hotfix finish hotfix-1.2.1 (gestionar horfixes)
+
+Se recomienda que al trabajar con git-flow los branches sigan una convención de nombres que esté fuertemente ligada con el bug traker ya sea Jira, The Bug Genie, etc.
+
+IdDelBug-NumeroDeComentario-DescripciónDeLaFuncionalidad

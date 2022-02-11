@@ -14,3 +14,5 @@ git flow hotfix finish hotfix-1.2.1 (gestionar horfixes)
 Se recomienda que al trabajar con git-flow los branches sigan una convención de nombres que esté fuertemente ligada con el bug traker ya sea Jira, The Bug Genie, etc.
 
 IdDelBug-NumeroDeComentario-DescripciónDeLaFuncionalidad
+
+git push origin --delete feature/my-feature (elimina el branch remoto)

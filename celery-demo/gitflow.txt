@@ -1,10 +1,16 @@
 git flow init (inicia un flow en git define los branchs)
 git flow feature start my-feature (crea la rama feature)
 git flow feature finish my-feature (finaliza la rama feature)
+Limpieza:
+Una vez finalizada se debe limpiar la rama git push origin :feature/modifygitflow
 git flow feature publish my-feature (publica la rama feature en el repo remoto)
 git flow feature pull origin my-feature (obtiene una rama desde el repo remoto)
 git flow feature track my-feature (seguir cambios de la rama feature)
 git flow release start release-1.2 (inicia un release)
+El resultado de este comando es la creación de una nueva rama con el 
+nombre release/release-1.2 que se puede enviar 
+al servidor para que la puedan descargar los colaboradores.
+En ese punto se debe pasar a la etapa de QA
 git flow release finish release-1.2 (finalizar release)
 git push --tags (debemos despues publicar los tags en el repo)
 git flow release track release-1.2 (seguir los cambios del release)
